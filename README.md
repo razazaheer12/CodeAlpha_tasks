@@ -13,7 +13,6 @@ This repository contains all the frontend development projects completed by me a
 <img width="1894" height="826" alt="image" src="https://github.com/user-attachments/assets/b75e800a-2a0a-4b50-99f1-795d75c4f735" />
 
 ## 🔗 Live Demo
-
 https://codealpha-image-gallery-12.netlify.app/
 
 
@@ -21,6 +20,12 @@ https://codealpha-image-gallery-12.netlify.app/
 - Basic calculator with arithmetic operations
 - Clean and responsive user interface
 - Real-time calculation using JavaScript
+
+## 📷 Preview
+<img width="813" height="402" alt="image" src="https://github.com/user-attachments/assets/c8b185a2-4e1b-4152-90c0-2fe2f79f74cd" />
+
+## 🔗 Live Demo
+https://code-alpha-calculator-12.netlify.app/
 
 ### ✅ Task 4: Music Player
 - Interactive music player using JavaScript
