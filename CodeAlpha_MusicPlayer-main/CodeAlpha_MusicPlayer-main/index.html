@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player | CodeAlpha </title>
+
+     <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="container">
+        <div class="album-art"></div>  
+        <div class="song-info">
+        <div class="song-title">Select a Song</div>
+        <div class="song-artist">Artist Name</div>
+            
+        <div class="progress-container" id="progressContainer">
+        <div class="progress" id="progress"></div>
+        </div>
+            
+        <div class="time-info">
+        <span id="currentTime">0:00</span>
+        <span id="duration">0:00</span>
+        </div>
+            
+            <div class="controls">
+                <button class="control-btn" id="prevBtn">⏮</button>
+                <button class="control-btn play-btn" id="playBtn">▶</button>
+                <button class="control-btn" id="nextBtn">⏭</button>
+            </div>
+        </div>      
+    <div class="volume-container">
+        <span class="volume-icon">🔊</span>
+        <div class="volume-slider" id="volumeSlider">
+        <div class="volume-level" id="volumeLevel"></div>
+        </div>
+    </div>      
+    <div class="autoplay-container">
+        <span class="autoplay-label">Autoplay</span>
+        <div class="toggle-switch" id="autoplayToggle">
+        <div class="toggle-slider"></div>
+        </div>
+    </div>       
+    <div class="playlist" id="playlist"></div>
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>
