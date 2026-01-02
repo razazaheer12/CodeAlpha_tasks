@@ -33,6 +33,12 @@ https://code-alpha-calculator-12.netlify.app/
 - Displays song title, artist, duration
 - Progress bar, volume control, playlist, and autoplay feature
 
+## 📷 Preview
+<img width="959" height="439" alt="image" src="https://github.com/user-attachments/assets/e1284372-e623-41d7-b2b7-c615e338a730" />
+
+## 🔗 Live Demo
+https://razazaheer12.github.io/CodeAlpha_MusicPlayer/
+
 ## 🛠️ Technologies Used
 - HTML
 - CSS
