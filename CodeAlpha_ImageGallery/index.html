@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Image Gallery | CodeAlpha</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts Preconnect (Performance Optimization) -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+   <!-- Modern Heading Fonts: Inter, Playfair Display, Montserrat, and Raleway -->
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Playfair+Display:wght@700&family=Montserrat:wght@700&family=Raleway:wght@300" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Image Gallery</h1>
+
+<button id="filter-btn" onclick="toggleGrayscale()">Toggle Grayscale</button>
+
+<div class="gallery">
+    <img src="images/BMW1.jpg" onclick="openLightbox(0)">
+    <img src="images/BMW2.jpg" onclick="openLightbox(1)">
+    <img src="images/BMW3.jpg" onclick="openLightbox(2)">
+    <img src="images/BMW4.jpg" onclick="openLightbox(3)">
+    <img src="images/BMW5.jpg" onclick="openLightbox(4)">
+    <img src="images/BMW6.jpg" onclick="openLightbox(5)">
+    <img src="images/BMW7.jpg" onclick="openLightbox(6)">
+    <img src="images/BMW8.jpg" onclick="openLightbox(7)">
+    <img src="images/BMW9.jpg" onclick="openLightbox(8)">
+    <img src="images/BMW10.jpg" onclick="openLightbox(9)">   
+</div>
+
+<div class="lightbox" id="lightbox">
+    <span class="close" onclick="closeLightbox()">×</span>
+    <button class="prev" onclick="changeImage(-1)">❮</button>
+    <img id="lightbox-img">
+    <button class="next" onclick="changeImage(1)">❯</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
