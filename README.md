@@ -8,6 +8,14 @@ This repository contains all the frontend development projects completed by me a
 - Responsive image gallery using HTML, CSS, and JavaScript
 - Hover effects and smooth transitions
 - Lightbox view with next and previous navigation
+  
+## 📷 Preview
+<img width="1894" height="826" alt="image" src="https://github.com/user-attachments/assets/b75e800a-2a0a-4b50-99f1-795d75c4f735" />
+
+## 🔗 Live Demo
+
+https://codealpha-image-gallery-12.netlify.app/
+
 
 ### ✅ Task 2: Calculator
 - Basic calculator with arithmetic operations
